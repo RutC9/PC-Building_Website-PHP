@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0 0;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+.footer-social {
+  margin: 0.5rem 0 1rem;
+}
+.footer-social a {
+  margin: 0 10px;
+}
+
+.copy {
+  margin: 10px;
+}

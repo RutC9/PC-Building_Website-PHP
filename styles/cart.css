@@ -1,0 +1,67 @@
+.order-table {
+  margin: 1em 2em;
+  min-width: 300px; /* adjust to your needs */
+  background-color: rgba(30, 5, 58, 0.644);
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+th {
+  margin: 4px;
+  padding: 20px;
+  background-color: rgba(58, 120, 235, 0.904);
+  color: white;
+  /* border: 1px white solid; */
+  /* border-style: hidden; */
+}
+td {
+  padding: 20px;
+}
+tr:last-child {
+  background-color: rgba(58, 120, 235, 0.904);
+  color: white;
+}
+
+/* payment method */
+.payment-container {
+  text-align: center;
+  margin: 30px;
+}
+.payment-container h1 {
+  margin: 50px;
+}
+.payment-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.methods {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.delivery-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#place-order {
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(51, 1, 109);
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  border: none;
+}
+
+#place-order:hover {
+  cursor: pointer;
+}

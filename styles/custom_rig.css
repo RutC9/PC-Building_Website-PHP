@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.customrig-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.build_inputs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  text-align: center;
+}
+form {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+select {
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: auto;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+option {
+  background-color: white;
+}
+#cpu_select,
+#gpu_select,
+#ram_select,
+#mb_select,
+#ssd_select,
+#hdd_select,
+#psu_select,
+#cpu_cooler_select {
+  display: none;
+}
+
+/* buttons */
+.order_buttons {
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button-inp {
+  margin: 20px;
+  padding: 10px;
+}
+
+.button-inp:hover {
+  cursor: pointer;
+}
