@@ -1,6 +1,8 @@
 This is a PC Building Website where users can have a great experience creating custom pcs with parts of their choice.
 We have used PHP and MySQL for most of the part and little bit of JavaScript for dynamic features
 
+![live site](http://pcbuilding.42web.io/home.php) 
+
 ![This is a Design Preiveiw for index page](./design/Index1.JPG)
 ![This is a Design Preiveiw for index page](./design/Index2.JPG)
 This is the home page where we have implemented a scrollable banners using checkbox
